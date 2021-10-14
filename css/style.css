@@ -1,0 +1,48 @@
+
+ /* LeftNav height */
+  .row.content {height: 450px}
+  
+  /* Set background color and height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #ffffff;
+    height: 100%;
+  }
+  
+  /* background color, text color and some padding */
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+  }
+  
+  /* set auto height to adjust to screen size */
+  @media screen and (max-width: 765px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+ /* Card color */
+  .card {
+    background-color: rgb(247, 4, 4);
+  }  
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+
+ .maintxt { 
+  position: relative; 
+}
+.maintxt > img,
+.overlay-text {
+  position: absolute; top:0; right:0; 
+}
+
+/* .img {
+  width: 200px;
+} */
+  
